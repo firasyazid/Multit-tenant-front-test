@@ -4,10 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0 --disable-host-check",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider npx ng build",
+"build": "NODE_OPTIONS=--openssl-legacy-provider npx ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "engines": {
+  "node": "18.x"
+},
+
   "private": true,
   "dependencies": {
     "@angular/cli": "~12.2.4",
@@ -25,8 +29,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.4",
-    "@angular/cli": "~12.2.4",
-    "@angular/compiler-cli": "~12.2.0",
+     "@angular/compiler-cli": "~12.2.0",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~3.8.0",
