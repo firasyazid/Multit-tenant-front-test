@@ -1,0 +1,7 @@
+<div *ngIf="restaurant">
+  <h1>{{ restaurant.name }}</h1>
+  <img [src]="restaurant.logo" alt="Logo" style="width: 200px; height: auto;">
+</div>
+<div *ngIf="!restaurant">
+  <p>Loading restaurant data...</p>
+</div>
