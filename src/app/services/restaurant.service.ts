@@ -6,6 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class RestaurantService {
+
+  ///
   private apiUrl = 'https://multit-tenant-back-test.onrender.com/api/v1/restaurants';  
   constructor(private http: HttpClient) {}
 
