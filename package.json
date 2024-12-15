@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0 --disable-host-check",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
